@@ -1,4 +1,4 @@
-# wordreference-api [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url][![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
+# wordreference-api [![NPM version][npm-image]][npm-url]
 
 > An api to use the worldreference.com information
 
@@ -70,9 +70,3 @@ MIT © [Fabian Gutierrez](fabiangutierrez.co)
 
 [npm-image]: https://badge.fury.io/js/wordreference-api.svg
 [npm-url]: https://npmjs.org/package/wordreference-api
-[travis-image]: https://travis-ci.org/fega/wordreference-api.svg?branch=master
-[travis-url]: https://travis-ci.org/fega/wordreference-api
-[daviddm-image]: https://david-dm.org/fega/wordreference-api.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/fega/wordreference-api
-[coveralls-image]: https://coveralls.io/repos/fega/wordreference-api/badge.svg
-[coveralls-url]: https://coveralls.io/r/fega/wordreference-api
