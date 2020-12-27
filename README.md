@@ -5,13 +5,13 @@
 ## Installation
 
 ```sh
-$ npm install --save wordreference-api
+$ npm install --save wordref
 ```
 
 ## Usage
 
 ```js
-var wr = require('wordreference-api');
+const wr = require('wordref');
 /**
  * wr
  * Gets the result for the given word, available languages: 'es', 'en', 'it', 'fr'
@@ -69,5 +69,5 @@ MIT © [Fabian Gutierrez](fabiangutierrez.co)
 Original: https://github.com/fega/wordreference-api
 
 
-[npm-image]: https://badge.fury.io/js/wordreference-api.svg
-[npm-url]: https://npmjs.org/package/wordreference-api
+[npm-image]: https://badge.fury.io/js/wordref.svg
+[npm-url]: https://npmjs.org/package/wordref

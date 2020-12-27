@@ -2,7 +2,7 @@
   "name": "wordref",
   "version": "1.0.0",
   "description": "An API to access wordreference.com",
-  "homepage": "https://github.com/William5553/wordref",
+  "homepage": "https://github.com/William5553/wordreference-api",
   "author": {
     "name": "William Kang",
     "email": "contact@williamk.ga",
@@ -51,7 +51,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/william5553/wordref.git"
+    "url": "git+https://github.com/william5553/wordreference-api.git"
   },
   "license": "MIT",
   "dependencies": {
