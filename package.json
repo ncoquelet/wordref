@@ -45,10 +45,6 @@
     }
   },
   "repository": "william5553/wordreference-api",
-  "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
-  },
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.23.1",
