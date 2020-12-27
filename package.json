@@ -16,9 +16,9 @@
     "lint:fix": "eslint . --fix --ext js"
   },
   "files": [
-    "dist"
+    "lib"
   ],
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "keywords": [
     "wordreference",
     "api",
