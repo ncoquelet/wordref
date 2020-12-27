@@ -66,6 +66,7 @@ Return:
 ## License
 
 MIT © [Fabian Gutierrez](fabiangutierrez.co)
+Original: https://github.com/fega/wordreference-api
 
 
 [npm-image]: https://badge.fury.io/js/wordreference-api.svg
