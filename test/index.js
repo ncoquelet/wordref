@@ -16,13 +16,13 @@ describe('wordreference-api', function () {
   describe('When you use a valid word', function () {
     it('Should return a JSON with some properties', function (done) {
       expect(wr('rainbow')).to.eventually.have.property('word')
-      .and.notify(done)
+        .and.notify(done)
     })
   })
   describe('When you use a valid word and valid languages', function () {
     it('Should return a JSON with some properties', function (done) {
       expect(wr('rainbow')).to.eventually.have.property('word')
-      .and.notify(done)
+        .and.notify(done)
     })
   })
 })
