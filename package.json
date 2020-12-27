@@ -1,8 +1,8 @@
 {
   "name": "wordreference-api",
   "version": "1.1.0",
-  "description": "An api to use the worldreference.com information",
-  "homepage": "",
+  "description": "An API to access wordreference.com",
+  "homepage": "https://github.com/William5553/wordreference-api",
   "author": {
     "name": "William Kang",
     "email": "contact@williamk.ga",
