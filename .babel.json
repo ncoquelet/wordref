@@ -213,7 +213,7 @@
       "basename": "manual-test"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar wr = require('./../lib');\nvar fs = require('fs');\n\nwr('water').then(function (res) {\n  return fs.writeFile('example.json', JSON.stringify(res, undefined, 2), function (err) {\n    if (err) throw err;\n    console.log('The file has been saved!');\n  });\n}).catch(function (res) {\n  return console.log(res);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1hbnVhbC10ZXN0LmpzIl0sIm5hbWVzIjpbIndyIiwicmVxdWlyZSIsImZzIiwidGhlbiIsIndyaXRlRmlsZSIsIkpTT04iLCJzdHJpbmdpZnkiLCJyZXMiLCJ1bmRlZmluZWQiLCJlcnIiLCJjb25zb2xlIiwibG9nIiwiY2F0Y2giXSwibWFwcGluZ3MiOiI7O0FBQUEsSUFBTUEsS0FBS0MsUUFBUSxVQUFSLENBQVg7QUFDQSxJQUFNQyxLQUFLRCxRQUFRLElBQVIsQ0FBWDs7QUFFQUQsR0FBRyxPQUFILEVBQ0dHLElBREgsQ0FDUTtBQUFBLFNBQ0pELEdBQUdFLFNBQUgsQ0FBYSxjQUFiLEVBQTZCQyxLQUFLQyxTQUFMLENBQWVDLEdBQWYsRUFBb0JDLFNBQXBCLEVBQStCLENBQS9CLENBQTdCLEVBQWdFLGVBQU87QUFDckUsUUFBSUMsR0FBSixFQUFTLE1BQU1BLEdBQU47QUFDVEMsWUFBUUMsR0FBUixDQUFZLDBCQUFaO0FBQ0QsR0FIRCxDQURJO0FBQUEsQ0FEUixFQU9HQyxLQVBILENBT1M7QUFBQSxTQUFPRixRQUFRQyxHQUFSLENBQVlKLEdBQVosQ0FBUDtBQUFBLENBUFQiLCJmaWxlIjoibWFudWFsLXRlc3QuanMiLCJzb3VyY2VSb290IjoiL2FwcC90ZXN0Iiwic291cmNlc0NvbnRlbnQiOlsiY29uc3Qgd3IgPSByZXF1aXJlKCcuLy4uL2xpYicpXG5jb25zdCBmcyA9IHJlcXVpcmUoJ2ZzJylcblxud3IoJ3dhdGVyJylcbiAgLnRoZW4ocmVzID0+XG4gICAgZnMud3JpdGVGaWxlKCdleGFtcGxlLmpzb24nLCBKU09OLnN0cmluZ2lmeShyZXMsIHVuZGVmaW5lZCwgMiksIGVyciA9PiB7XG4gICAgICBpZiAoZXJyKSB0aHJvdyBlcnJcbiAgICAgIGNvbnNvbGUubG9nKCdUaGUgZmlsZSBoYXMgYmVlbiBzYXZlZCEnKVxuICAgIH0pXG4gIClcbiAgLmNhdGNoKHJlcyA9PiBjb25zb2xlLmxvZyhyZXMpKVxuIl19",
+    "code": "\"use strict\";\n\nvar wr = require(\"./../lib\");\nvar fs = require(\"fs\");\n\nwr(\"water\", \"en\", \"fr\", function (r) {\n  fs.writeFile(\"example.json\", r, function (err) {\n    if (err) throw err;\n    console.log(\"test complete\");\n  });\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1hbnVhbC10ZXN0LmpzIl0sIm5hbWVzIjpbIndyIiwicmVxdWlyZSIsImZzIiwid3JpdGVGaWxlIiwiciIsImVyciIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBQUEsSUFBTUEsS0FBS0MsUUFBUSxVQUFSLENBQVg7QUFDQSxJQUFNQyxLQUFLRCxRQUFRLElBQVIsQ0FBWDs7QUFFQUQsR0FBRyxPQUFILEVBQVksSUFBWixFQUFrQixJQUFsQixFQUF3QixhQUFLO0FBQzNCRSxLQUFHQyxTQUFILENBQWEsY0FBYixFQUE2QkMsQ0FBN0IsRUFBZ0MsZUFBTztBQUNyQyxRQUFJQyxHQUFKLEVBQVMsTUFBTUEsR0FBTjtBQUNUQyxZQUFRQyxHQUFSLENBQVksZUFBWjtBQUNELEdBSEQ7QUFJRCxDQUxEIiwiZmlsZSI6Im1hbnVhbC10ZXN0LmpzIiwic291cmNlUm9vdCI6Ii9hcHAvdGVzdCIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IHdyID0gcmVxdWlyZShcIi4vLi4vbGliXCIpO1xuY29uc3QgZnMgPSByZXF1aXJlKFwiZnNcIik7XG5cbndyKFwid2F0ZXJcIiwgXCJlblwiLCBcImZyXCIsIHIgPT4ge1xuICBmcy53cml0ZUZpbGUoXCJleGFtcGxlLmpzb25cIiwgciwgZXJyID0+IHtcbiAgICBpZiAoZXJyKSB0aHJvdyBlcnI7XG4gICAgY29uc29sZS5sb2coXCJ0ZXN0IGNvbXBsZXRlXCIpO1xuICB9KTtcbn0pO1xuIl19",
     "ast": null,
     "map": {
       "version": 3,
@@ -224,24 +224,19 @@
         "wr",
         "require",
         "fs",
-        "then",
         "writeFile",
-        "JSON",
-        "stringify",
-        "res",
-        "undefined",
+        "r",
         "err",
         "console",
-        "log",
-        "catch"
+        "log"
       ],
-      "mappings": ";;AAAA,IAAMA,KAAKC,QAAQ,UAAR,CAAX;AACA,IAAMC,KAAKD,QAAQ,IAAR,CAAX;;AAEAD,GAAG,OAAH,EACGG,IADH,CACQ;AAAA,SACJD,GAAGE,SAAH,CAAa,cAAb,EAA6BC,KAAKC,SAAL,CAAeC,GAAf,EAAoBC,SAApB,EAA+B,CAA/B,CAA7B,EAAgE,eAAO;AACrE,QAAIC,GAAJ,EAAS,MAAMA,GAAN;AACTC,YAAQC,GAAR,CAAY,0BAAZ;AACD,GAHD,CADI;AAAA,CADR,EAOGC,KAPH,CAOS;AAAA,SAAOF,QAAQC,GAAR,CAAYJ,GAAZ,CAAP;AAAA,CAPT",
+      "mappings": ";;AAAA,IAAMA,KAAKC,QAAQ,UAAR,CAAX;AACA,IAAMC,KAAKD,QAAQ,IAAR,CAAX;;AAEAD,GAAG,OAAH,EAAY,IAAZ,EAAkB,IAAlB,EAAwB,aAAK;AAC3BE,KAAGC,SAAH,CAAa,cAAb,EAA6BC,CAA7B,EAAgC,eAAO;AACrC,QAAIC,GAAJ,EAAS,MAAMA,GAAN;AACTC,YAAQC,GAAR,CAAY,eAAZ;AACD,GAHD;AAID,CALD",
       "file": "manual-test.js",
       "sourceRoot": "/app/test",
       "sourcesContent": [
-        "const wr = require('./../lib')\nconst fs = require('fs')\n\nwr('water')\n  .then(res =>\n    fs.writeFile('example.json', JSON.stringify(res, undefined, 2), err => {\n      if (err) throw err\n      console.log('The file has been saved!')\n    })\n  )\n  .catch(res => console.log(res))\n"
+        "const wr = require(\"./../lib\");\nconst fs = require(\"fs\");\n\nwr(\"water\", \"en\", \"fr\", r => {\n  fs.writeFile(\"example.json\", r, err => {\n    if (err) throw err;\n    console.log(\"test complete\");\n  });\n});\n"
       ]
     },
-    "mtime": 1609052152000
+    "mtime": 1609116114000
   }
 }

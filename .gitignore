@@ -1,6 +1,6 @@
 node_modules/
 *.log
-coverage
-dist
 package-lock.json
 shrinkwrap.yaml
+# error.txt
+# debug.txt
