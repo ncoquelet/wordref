@@ -1,4 +1,4 @@
-# wordreference-api [![NPM version][npm-image]][npm-url]
+# wordref [![NPM version][npm-image]][npm-url]
 
 > An api to use the worldreference.com information
 
@@ -14,14 +14,16 @@ $ npm install --save wordref
 const wr = require('wordref');
 /**
  * wr
- * Gets the result for the given word, available languages: 'es', 'en', 'it', 'fr'
- * @param  {String} word Word to be searched
- * @param  {String} from from language, default 'en'
- * @param  {String} to   to language, default 'es'
- * @return {Object}      Object with the word data
+ * Gets the result for the given word, available languages: 'en', 'fr', 'es', 'it'
+ * @param  {String}   word      Word to be searched
+ * @param  {String}   from      from language, default 'en'
+ * @param  {String}   to        to language, default 'fr'
+ * @param  {function} callback  callback function
+ * @return {Object}             Object with the word data
  */
-wr('Rainbow');
-wr('Rainbow','en','fr').then((result)=> console.log);
+wr('Rainbow', 'en', 'fr', result => {
+  console.log(result);
+});
 ```
 Return:
 ``` javascript

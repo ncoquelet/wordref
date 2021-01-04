@@ -46,7 +46,8 @@
   "eslintConfig": {
     "extends": "xo-space",
     "env": {
-      "mocha": true
+      "mocha": true,
+      "node": true
     }
   },
   "repository": {
@@ -58,6 +59,6 @@
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
     "cheerio": "^0.22.0",
-    "node-superfetch": "^0.1.10"
+    "got": "^11.8.1"
   }
 }

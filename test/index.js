@@ -1,4 +1,3 @@
-/* eslint-env node, mocha */
 const wr = require('../lib')
 const chai = require('chai')
 const chaiAsPromised = require('chai-as-promised')
